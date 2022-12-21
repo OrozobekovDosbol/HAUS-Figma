@@ -4,6 +4,41 @@
 body {
   margin: 0;
 }
+.col-6 {
+  flex: 50% 0 0;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .block-1 {
+  background-image: url(./images/header-1.png);
+  height: 800px;
+}
+header .block-2 {
+  background-color: brown;
+}
+.topbar{
+  display: flex;
+  position: absolute;
+  left: 216px;
+}
+.topbar ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.topbar ul li a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(220, 220, 220);
+  text-decoration: none;
+  font-size: 12px;
+  padding: 20px 30px;
+}
+.div-h1 {
+  color: white;
+  margin-top: 0 auto;
+}
 main {
   margin: 40px;
 }
@@ -24,25 +59,37 @@ main {
   max-width: 247px;
 }
 
-.box-1 img{
-  display: flex;
+.box-1 img {
   justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  text-align: center;
+}
+.container-2 .box-1 img{
+  margin-right: 0;
 }
 .box-3 {
-  max-width: 350px;
   text-align: center;
 }
 
 .container-2 {
-  margin: 30px;
+  margin: 20px;
   display: flex;
-  max-width: 1320px;
+  border-bottom: 2px solid black;
+  padding-bottom: 100px;
+  justify-content: space-around;
 }
 .container-2 .box-1 {
-  max-width: 400px;
   text-align: center;
-  justify-content: space-between;
+}
+.container-2 .box-1 img{
+  justify-content: space-around;
+  text-align: center;
 }
 .container-2 .box-1 button {
-  
+  padding: 15px 30px; 
+  font-size: 10px;
+  color: white;
+  border-radius: 0;
+  background-color: black;
 }
