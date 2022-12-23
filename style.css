@@ -51,15 +51,14 @@ header .block-2 .box-1 button {
 }
 .topbar ul li a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 12px;
   padding: 20px 30px;
 }
-.topbar ul h1 {
+.topbar ul .div-h1 {
   width: 83px;
-  color: rgb(0, 0, 0);
-  padding-left: 216px;
+  padding-left: 170px;
   padding-right: 250px;
 }
 main {
