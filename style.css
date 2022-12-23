@@ -5,6 +5,17 @@
 body {
   margin: 0;
 }
+.up-div {
+  background-color: black;
+}
+.up-div p {
+  color: white;
+  padding: 15px 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
 .col-6 {
   flex: 50% 0 0;
 }
@@ -43,14 +54,16 @@ header .block-2 .box-1 button {
 .topbar{
   display: flex;
   position: absolute;
-  top: 0;
+  top: 70px;
   left: 0;
+  width: 100%;
   justify-content: space-between;
 }
 .topbar ul {
   display: flex;
   list-style-type: none;
   align-items: center;
+  justify-content: space-between;
 }
 .topbar ul li a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
