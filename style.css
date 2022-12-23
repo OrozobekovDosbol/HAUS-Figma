@@ -45,12 +45,12 @@ header .block-2 .box-1 button {
   position: absolute;
   top: 0;
   left: 0;
+  justify-content: space-between;
 }
 .topbar ul {
   display: flex;
   list-style-type: none;
   align-items: center;
-  justify-content: space-between;
 }
 .topbar ul li a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
