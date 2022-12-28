@@ -130,7 +130,7 @@ main {
   font-size: 12px;
   font-weight: 400;
 }
-.container .content {
+.content {
   margin: 0;
   display: flex;
   border-bottom: 1.5px solid #bdbdbd;
@@ -313,8 +313,7 @@ main {
 .boxes-1 .content {
   display: block;
   max-width: 550px;
-  color: white;
-  justify-content: flex-start; 
+  color: white; 
   margin: 40px;
   border: 0;
 }
@@ -322,7 +321,11 @@ main {
   background-color: black;
   width: 550px;
   height: 303px;
-  margin-bottom: 20px;    
+  margin-bottom: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;   
 }
 .boxes-1 .content .box-2 {
   max-width: 550px;
@@ -346,4 +349,7 @@ main {
 }
 .boxes-1 button {
   padding: 16.39px 59.57px;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  border-radius: 0;
 }
