@@ -93,7 +93,7 @@ main {
   text-align: center;
   border-bottom: 1.5px solid #bdbdbd;
 }
-.content .box-1 {
+.container .content .box-1 {
   max-width: 330px;
   height: 181px;
   margin: 0 auto;
@@ -312,15 +312,15 @@ main {
 }
 .boxes-1 .content {
   display: block;
+  max-width: 550px;
   color: white;
-  justify-content: flex-start;        
-  margin: 0;
+  justify-content: flex-start; 
   margin: 40px;
   border: 0;
 }
 .boxes-1 .content .box-1 {
   background-color: black;
-  width: 1000px;
+  width: 550px;
   height: 303px;
   margin-bottom: 20px;    
 }
