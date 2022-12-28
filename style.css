@@ -353,3 +353,7 @@ main {
   background-color: #FFFFFF;
   border-radius: 0;
 }
+.boxes-1 .box-2 span {
+  display: flex;
+  justify-content: space-between;
+}
