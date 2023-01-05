@@ -334,6 +334,7 @@ main {
   border-radius: 0px; 
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   
 }
 .boxes-1 h1 {
