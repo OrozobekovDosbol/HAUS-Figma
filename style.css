@@ -335,7 +335,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  
+  align-content: center;
 }
 .boxes-1 h1 {
   font-weight: 400;
