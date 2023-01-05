@@ -341,6 +341,7 @@ main {
 .boxes-1 .content .box-2 ul span a {
   color: white;
   text-decoration: none;
+  font-family: Roboto;
 }
 .boxes-1 h1 {
   font-weight: 400;
