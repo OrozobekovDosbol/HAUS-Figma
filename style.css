@@ -340,6 +340,7 @@ main {
 }
 .boxes-1 .content .box-2 ul span a {
   color: white;
+  text-decoration: none;
 }
 .boxes-1 h1 {
   font-weight: 400;
