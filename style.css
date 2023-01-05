@@ -421,7 +421,9 @@ footer .block-2 nav ul li a {
 footer input {
   background: #000000;
   height: 52px;
-  width: 300px;
-  border-bottom: 1px solid white;
+  width: 500px;
+  border: 0px;
+  border: 1px solid white;
   margin-bottom: 30px;
+  color: white;
 }
