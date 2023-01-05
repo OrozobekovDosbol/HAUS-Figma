@@ -338,6 +338,9 @@ main {
   align-content: center;
   justify-content: center;
 }
+.boxes-1 .content .box-2 ul span a {
+  color: white;
+}
 .boxes-1 h1 {
   font-weight: 400;
   font-size: 55px;
