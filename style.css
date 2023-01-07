@@ -21,6 +21,7 @@ header {
 }
 header .row .col-6 .block-1 {
   background-image: url(./images/header-1.png);
+  background-repeat: no-repeat;
   height: 800px;
 }
 header .row .col-6 .block-2 {
@@ -371,7 +372,6 @@ main {
   display: flex;
   justify-content: space-around;
 }
-
 footer {
   background-color: black;
   width: 100%;
@@ -382,7 +382,7 @@ footer .content {
 }
 footer .block-1 {
   color: white;
-  max-width: 410px;
+  max-width: 420px;
   text-align: left;
 }
 footer .block-1 h1 {
