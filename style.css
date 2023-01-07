@@ -322,6 +322,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;   
+  flex-direction: column;
 }
 .boxes-1 .content .box-2 {
   max-width: 550px;
