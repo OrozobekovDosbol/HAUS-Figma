@@ -323,6 +323,7 @@ main {
   align-items: center;
   flex-wrap: wrap;   
   flex-direction: column;
+  align-content: center;
 }
 .boxes-1 .content .box-2 {
   max-width: 550px;
