@@ -324,7 +324,7 @@ main {
   flex-wrap: wrap;   
   flex-direction: column;
   align-content: center;
-  
+
 }
 .boxes-1 .content .box-2 {
   max-width: 550px;
@@ -336,6 +336,7 @@ main {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  
 }
 .boxes-1 .content .box-2 ul span a {
   color: white;
