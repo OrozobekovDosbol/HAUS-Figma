@@ -260,6 +260,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-content: center;
 }
 .sidebar .box-1 h1 {
   width: 300px;
