@@ -257,6 +257,7 @@ main {
   text-align: center;
 }
 .sidebar .box-1 {
+  display: flex;
 }
 .sidebar .box-1 h1 {
   width: 300px;
