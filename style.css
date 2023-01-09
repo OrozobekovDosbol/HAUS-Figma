@@ -261,6 +261,7 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  margin-top: 90px;
 }
 .sidebar .box-1 h1 {
   width: 300px;
