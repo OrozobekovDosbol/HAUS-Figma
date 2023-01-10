@@ -97,6 +97,7 @@ main {
 main .content {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
 }
 main .content .box-1 {
   width: 288px;
