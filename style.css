@@ -100,8 +100,7 @@ main .content .box-1 {
 }
 .content .box-1 img {
   justify-content: center;
-  align-items: center;
-  margin-right: 0;
+  align-items: center;  
   text-align: center;
 }
 .box-3 {
