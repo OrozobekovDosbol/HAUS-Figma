@@ -99,6 +99,7 @@ main .content {
   justify-content: space-around;
   align-items: flex-start;
   text-align: center;
+  border-bottom: 1.5px solid #bdbdbd;;
 }
 main .content .box-1 {
   width: 288px;
