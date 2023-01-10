@@ -398,6 +398,7 @@ footer {
 footer .content {
   border: 0;
   display: flex;
+  justify-content: space-between;
 }
 footer .block-1 {
   color: white;
