@@ -107,6 +107,7 @@ main .content .box-1 {
 main .content .box-1 p {
   font-family: Roboto;
   font-weight: 400;
+  font-size: 18px;
 }
 .content .box-1 img {
   justify-content: center;
