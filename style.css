@@ -426,4 +426,5 @@ footer .block-2 nav ul li a {
 
 .content .block-1 .box-1 {
   display: flex;
+  flex-wrap: wrap;
 }
