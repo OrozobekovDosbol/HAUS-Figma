@@ -100,7 +100,7 @@ main {
 .content .box-2 {
   max-width: 297px;
 }
-.content .box-1 {
+main .content .box-1 {
   width: 288px;
   justify-content: space-between;
 }
@@ -387,7 +387,7 @@ footer .content {
 }
 footer .block-1 {
   color: white;
-  max-width: 500px; 
+  max-width: 500px;
   text-align: left;
 }
 footer .block-1 h1 {
