@@ -98,6 +98,7 @@ main .content {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  text-align: center;
 }
 main .content .box-1 {
   width: 288px;
