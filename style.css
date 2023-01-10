@@ -239,6 +239,7 @@ main .content .box-1 p {
   width: 800px;
   height: 560px;
   object-fit: scale;
+  margin-top: 10px;
 }
 .image-screen {
   width: 375px;
