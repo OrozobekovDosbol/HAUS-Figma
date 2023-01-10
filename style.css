@@ -91,12 +91,6 @@ main {
   height: 730px;
   border-bottom: 1.5px solid #bdbdbd;
 }
-.container .content .box-1 {
-  max-width: 330px;
-  height: 181px;
-  margin: 0 auto;
-  text-align: center;
-}
 .content .box-2 {
   max-width: 297px;
 }
@@ -128,15 +122,17 @@ main .content .box-1 {
   font-size: 12px;
   font-weight: 400;
 }
-.content {
+.container .content {
   margin: 0;
   display: flex;
   border-bottom: 1.5px solid #bdbdbd;
   justify-content: space-around;
 }
 .container .content .box-1 {
+  width: 367px;
+  height: 181px;
+  margin: 0 auto;
   text-align: center;
-  width: 370px;
 }
 .container .content .box-1 img {
   justify-content: space-around;
