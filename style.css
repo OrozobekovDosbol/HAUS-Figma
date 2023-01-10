@@ -438,11 +438,13 @@ footer .block-2 nav ul li a {
   line-height: 18px;
   text-align: left;
 }
-
 .content .block-1 .box-1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.content .block-1 .box-1 span {
+  
 }
