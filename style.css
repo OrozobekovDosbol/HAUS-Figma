@@ -467,3 +467,11 @@ footer .block-2 nav ul li .a-1 {
   background-color: white;
   color: #000000;
 }
+footer .block-3 {
+  display: flex;
+  align-items: flex-end;
+}
+footer .block-3 p {
+  
+  color: white;
+}
