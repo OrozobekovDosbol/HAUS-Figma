@@ -395,6 +395,7 @@ footer {
 }
 footer .content {
   border: 0;
+  display: flex;
 }
 footer .block-1 {
   color: white;
