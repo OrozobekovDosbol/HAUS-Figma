@@ -94,6 +94,9 @@ main {
 .content .box-2 {
   max-width: 297px;
 }
+main .content {
+  display: flex;
+}
 main .content .box-1 {
   width: 288px;
   justify-content: space-between;
