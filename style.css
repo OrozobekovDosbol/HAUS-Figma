@@ -429,4 +429,5 @@ footer .block-2 nav ul li a {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
