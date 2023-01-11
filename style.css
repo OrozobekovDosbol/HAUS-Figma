@@ -44,11 +44,10 @@ header .row .col-6 .block-2 .box-1 h1 {
   font-size: 73px;
   font-weight: 400;
   width: 457px;
+  margin-bottom: 0px;
 }
 header .row .col-6 .block-2 .box-1 p {
   width: 510px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header .row .col-6 .block-2 .box-1 button {
   width: 180px;
@@ -79,7 +78,7 @@ header .row .col-6 .block-2 .box-1 button {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 12px;
-  padding: 20px 50px;
+  padding: 20px 50px; 
 }
 main {
   margin: 40px;
