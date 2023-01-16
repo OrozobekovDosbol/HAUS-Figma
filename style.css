@@ -148,6 +148,7 @@ main .brand  .box-1 p {
   display: flex;  
   border-bottom: 1px solid #bdbdbd;
   justify-content: space-around;
+  padding-bottom: 100px;
 } 
 .container .best-seller {
   display: flex;
