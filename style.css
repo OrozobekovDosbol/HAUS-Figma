@@ -173,6 +173,7 @@ main .brand  .box-1 p {
   height: 100%;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 50px;
 }
 .container .box-1 img {
   width: 100%;
