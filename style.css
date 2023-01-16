@@ -455,6 +455,7 @@ footer .content {
   border: 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer .block-1 {
   color: white;
