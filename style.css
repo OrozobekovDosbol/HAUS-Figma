@@ -47,6 +47,13 @@ header .block-2 .box-1 h1 {
   font-weight: 400;
   margin-bottom: 0px;
 }
+
+@media screen and (max-width:320px) {
+  header .block-2 .box-1 h1 {
+    font-size: 40px;
+  }
+}
+
 header .block-2 .box-1 p {
   font-family: roboto;
   margin: 50px 0;
@@ -68,7 +75,7 @@ header .block-2 .box-1 button {
   justify-content: space-between;
 } 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1050px) {
   .topbar {
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +85,7 @@ header .block-2 .box-1 button {
 }
 .topbar ul {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   align-items: center;
   justify-content: space-between;
@@ -91,6 +99,13 @@ header .block-2 .box-1 button {
   font-size: 12px;
   padding: 20px 50px; 
 }
+
+@media screen and (max-width:420px) {
+  .topbar ul li a {
+    padding: 20px 30px;
+  }
+}
+
 main {
   margin: 40px;
 }
@@ -103,7 +118,7 @@ main {
   padding-bottom: 20px;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:920px) {
   .brand {
     display: flex;
     flex-direction: column;
@@ -115,13 +130,17 @@ main {
   max-width: 297px;
 }
 main .brand .box-1 {
-  width: 288px;
   justify-content: space-between;
+}
+main .brand .box-1 img {
+  width: 250px;
 }
 main .brand  .box-1 p {
   font-family: Roboto;
   font-weight: 400;
   font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .box-3 {
   display: block;
@@ -133,6 +152,12 @@ main .brand  .box-1 p {
   font-size: 64px;
   font-weight: 400;
   text-align: center;
+}
+
+@media screen and (max-width:360px) {
+  .box-3 h1 {
+    font-size: 40px;
+  }
 }
 .box-3 span {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -277,7 +302,7 @@ main .brand  .box-1 p {
   width: 100%;
   height: 560px;
   margin-top: 10px;
-      margin-left: 10px;
+  margin-left: 10px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -349,16 +374,10 @@ main .brand  .box-1 p {
   }
 }
 
-.product .box-1 img {
-  width: 480px;
-  height: 400px;
-  margin-right: 80px;
-}
-
 @media screen and (max-width:700px) {
   .product .box-1 img {
-    width: 200px;
-    height: 180px;
+    width: 250px;
+    height: 200px;
     margin: 0 auto;
   }
 }
@@ -394,7 +413,9 @@ main .brand  .box-1 p {
   height: 558px;
 }
 .boxes-1 .content {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   max-width: 550px;
   color: white; 
   margin: 50px 0 40px 40px;
@@ -413,7 +434,25 @@ main .brand  .box-1 p {
   align-content: center;
 }
 
-
+@media screen and (max-width:700px) {
+  .boxes-1 .content {
+    margin: 0 auto;
+  }
+  .boxes-1 .content .box-1 {
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .boxes-1 .content p {
+    font-size: 12px;
+  }
+  .boxes-1 .content .box-1 h1 {
+    font-size: 16px;
+  }
+  .boxes-1 .content .box-2 ul span a {
+    font-size: 10px;
+  }
+}
 
 .boxes-1 .content .box-2 {
   max-width: 550px;
@@ -443,7 +482,6 @@ main .brand  .box-1 p {
   font-family:  Roboto;
   font-weight: 400;
   font-size: 16px;
-  width: 412px;
   margin: 0;
   text-align: center;
 }
@@ -459,6 +497,8 @@ main .brand  .box-1 p {
 .boxes-1 ul {
   display: flex;
   justify-content: space-around;
+  padding: 0;
+  width: 100%;
 }
 footer {
   display: flex;
